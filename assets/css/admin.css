@@ -1,0 +1,9 @@
+/* Admin chrome for the EasyPay gateway settings screen. */
+
+#ezpy-check-result.ezpy-ok {
+	color: #1a7f37;
+}
+
+#ezpy-check-result.ezpy-err {
+	color: #b32d2e;
+}

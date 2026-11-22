@@ -1,0 +1,291 @@
+# Copyright (C) 2026 CatCode
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CatCode Card Payments with EasyPay for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catcode-card-payments-with-easypay-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Domain: catcode-card-payments-with-easypay-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: catcode-card-payments-with-easypay-for-woocommerce.php
+msgid "CatCode Card Payments with EasyPay for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: catcode-card-payments-with-easypay-for-woocommerce.php
+msgid "https://catcode.com.ua/modules/easypay-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: catcode-card-payments-with-easypay-for-woocommerce.php
+msgid "Accept card, Apple Pay and Google Pay payments through the EasyPay payment page: the order is confirmed by a signed notification and re-checked with EasyPay, the status is reconciled when the buyer returns, sandbox with the public EasyPay test merchant."
+msgstr ""
+
+#. Author of the plugin
+#: catcode-card-payments-with-easypay-for-woocommerce.php
+msgid "CatCode"
+msgstr ""
+
+#. Author URI of the plugin
+#: catcode-card-payments-with-easypay-for-woocommerce.php
+msgid "https://catcode.com.ua"
+msgstr ""
+
+#: catcode-card-payments-with-easypay-for-woocommerce.php:67
+msgid "Another copy of the CatCode EasyPay gateway is active. This copy stays idle — deactivate one of them."
+msgstr ""
+
+#: catcode-card-payments-with-easypay-for-woocommerce.php:76
+msgid "CatCode Card Payments with EasyPay for WooCommerce requires an active WooCommerce."
+msgstr ""
+
+#: includes/Admin/Ajax.php:23
+msgid "Not allowed."
+msgstr ""
+
+#: includes/Admin/Ajax.php:38
+msgid "The gateway is not loaded."
+msgstr ""
+
+#: includes/Admin/Ajax.php:41
+msgid "Save PartnerKey, ServiceKey and SecretKey first (or turn the sandbox on)."
+msgstr ""
+
+#: includes/Admin/Ajax.php:48
+msgid "EasyPay does not know this PartnerKey."
+msgstr ""
+
+#: includes/Admin/Ajax.php:49
+msgid "EasyPay does not know this ServiceKey for your PartnerKey."
+msgstr ""
+
+#: includes/Admin/Ajax.php:50
+msgid "The signature is rejected — the SecretKey is wrong."
+msgstr ""
+
+#: includes/Admin/Ajax.php:51
+msgid "EasyPay could not be reached from this server: "
+msgstr ""
+
+#: includes/Admin/Ajax.php:58
+msgid "The EasyPay sandbox answers — the test merchant is ready for a test payment."
+msgstr ""
+
+#: includes/Admin/Ajax.php:59
+msgid "EasyPay accepts PartnerKey, ServiceKey and the signature."
+msgstr ""
+
+#: includes/Core/Plugin.php:72
+msgid "Network error — please try again."
+msgstr ""
+
+#: includes/Core/Plugin.php:96
+msgid "Settings"
+msgstr ""
+
+#: includes/Gateway/Blocks.php:46
+#: includes/Gateway/Method.php:63
+msgid "Card, Apple Pay or Google Pay (EasyPay)"
+msgstr ""
+
+#: includes/Gateway/Method.php:35
+msgid "EasyPay"
+msgstr ""
+
+#: includes/Gateway/Method.php:36
+msgid "Card, Apple Pay and Google Pay payments on the EasyPay payment page. The order is confirmed by a signed EasyPay notification and re-checked with EasyPay before it is marked paid."
+msgstr ""
+
+#: includes/Gateway/Method.php:54
+msgid "Enable"
+msgstr ""
+
+#: includes/Gateway/Method.php:56
+msgid "Enable EasyPay payments"
+msgstr ""
+
+#: includes/Gateway/Method.php:60
+msgid "Title"
+msgstr ""
+
+#: includes/Gateway/Method.php:62
+msgid "Payment method name the buyer sees at checkout."
+msgstr ""
+
+#: includes/Gateway/Method.php:67
+msgid "Description"
+msgstr ""
+
+#: includes/Gateway/Method.php:69
+msgid "You will be taken to the secure EasyPay page to pay by Visa/Mastercard, Apple Pay or Google Pay."
+msgstr ""
+
+#: includes/Gateway/Method.php:72
+msgid "Sandbox"
+msgstr ""
+
+#: includes/Gateway/Method.php:74
+msgid "Use the public EasyPay test merchant"
+msgstr ""
+
+#: includes/Gateway/Method.php:75
+msgid "Works right away with the test credentials published in the EasyPay documentation (easypay-test / MERCHANT-TEST) — no contract needed, no real money moves. Test cards are listed in the EasyPay Merchant API documentation. Turn it off and enter your own keys to accept real payments."
+msgstr ""
+
+#: includes/Gateway/Method.php:79
+msgid "PartnerKey"
+msgstr ""
+
+#: includes/Gateway/Method.php:81
+msgid "Merchant identifier issued by your EasyPay manager."
+msgstr ""
+
+#: includes/Gateway/Method.php:87
+msgid "ServiceKey"
+msgstr ""
+
+#: includes/Gateway/Method.php:89
+msgid "Identifier of your shop (service) in EasyPay."
+msgstr ""
+
+#: includes/Gateway/Method.php:95
+msgid "SecretKey"
+msgstr ""
+
+#: includes/Gateway/Method.php:97
+msgid "Signs every request and verifies EasyPay notifications. Stored encrypted in the database."
+msgstr ""
+
+#: includes/Gateway/Method.php:101
+msgid "Connection check"
+msgstr ""
+
+#: includes/Gateway/Method.php:105
+msgid "Order number prefix"
+msgstr ""
+
+#: includes/Gateway/Method.php:108
+msgid "EasyPay needs a unique order number for every payment. The prefix keeps numbers of this shop apart from other shops on the same merchant; a repeated payment attempt gets a -2, -3… suffix automatically."
+msgstr ""
+
+#: includes/Gateway/Method.php:112
+msgid "Unpaid order reminder"
+msgstr ""
+
+#: includes/Gateway/Method.php:114
+msgid "Pass the buyer’s phone so EasyPay can remind about an unpaid order (SMS or Viber)"
+msgstr ""
+
+#: includes/Gateway/Method.php:115
+msgid "EasyPay sends the reminder 15–20 minutes after the payment page was created if it is still unpaid. Check the terms of this service in your EasyPay contract."
+msgstr ""
+
+#: includes/Gateway/Method.php:119
+msgid "Status after payment"
+msgstr ""
+
+#: includes/Gateway/Method.php:122
+msgid "Processing"
+msgstr ""
+
+#: includes/Gateway/Method.php:123
+msgid "Completed"
+msgstr ""
+
+#: includes/Gateway/Method.php:128
+msgid "Notification source"
+msgstr ""
+
+#: includes/Gateway/Method.php:130
+msgid "Accept notifications only from EasyPay IP addresses"
+msgstr ""
+
+#: includes/Gateway/Method.php:131
+msgid "Every notification is already signature-checked and re-confirmed with EasyPay. Leave this off behind Cloudflare or a proxy, where the visitor address is not the real one."
+msgstr ""
+
+#: includes/Gateway/Method.php:135
+msgid "Logging"
+msgstr ""
+
+#: includes/Gateway/Method.php:137
+msgid "Write requests and responses to the WooCommerce log (source: easypay)"
+msgstr ""
+
+#: includes/Gateway/Method.php:141
+msgid "Notification URL"
+msgstr ""
+
+#. translators: %s: notification URL
+#: includes/Gateway/Method.php:145
+#, php-format
+msgid "Sent to EasyPay with every order, nothing to configure:<br><code>%s</code>"
+msgstr ""
+
+#: includes/Gateway/Method.php:196
+msgid "Check keys"
+msgstr ""
+
+#: includes/Gateway/Method.php:197
+msgid "Sends a signed status request with the saved keys. No order and no payment is created."
+msgstr ""
+
+#. translators: 1: order number, 2: shop name
+#: includes/Gateway/Method.php:314
+#, php-format
+msgid "Order #%1$s, %2$s"
+msgstr ""
+
+#: includes/Gateway/Method.php:340
+msgid "EasyPay accepts payments in hryvnia only."
+msgstr ""
+
+#: includes/Gateway/Method.php:378
+msgid "EasyPay did not return a payment page."
+msgstr ""
+
+#: includes/Gateway/Method.php:379
+msgid "Payment error: "
+msgstr ""
+
+#. translators: %s: EasyPay order number
+#: includes/Gateway/Method.php:389
+#, php-format
+msgid "EasyPay: waiting for payment (order %s)."
+msgstr ""
+
+#: includes/Gateway/Method.php:480
+msgid "The payment was not completed. Please try again or choose another payment method."
+msgstr ""
+
+#. translators: %s: refunded amount
+#: includes/Gateway/Method.php:600
+#, php-format
+msgid "EasyPay: refunds on this payment now total %s."
+msgstr ""
+
+#: includes/Gateway/Method.php:616
+msgid "EasyPay: the payment was cancelled, the money is returned to the card."
+msgstr ""
+
+#: includes/Gateway/Method.php:626
+msgid "EasyPay: the payment was declined."
+msgstr ""
+
+#. translators: 1: paid amount, 2: order total
+#: includes/Gateway/Method.php:664
+#, php-format
+msgid "EasyPay: paid %1$s, but the order total is %2$s — check before shipping."
+msgstr ""
+
+#. translators: %s: EasyPay transaction id
+#: includes/Gateway/Method.php:677
+#, php-format
+msgid "EasyPay: payment received, transaction %s."
+msgstr ""
